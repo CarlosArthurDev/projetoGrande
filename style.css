@@ -1,0 +1,22 @@
+ 
+    body{
+        text-align: center;   
+         background-size: cover;
+     }
+    canvas{
+         border: 5px solid goldenrod;
+         border-radius: 20px;
+         animation-name: exemplo;
+         animation-duration: 4s;
+         animation-iteration-count: infinite;
+         margin-top: 50px;
+    }
+  
+    @keyframes exemplo{
+         from{
+            box-shadow: 4px 4px 4px rgb(170, 10, 10);
+         }
+         to{
+            box-shadow: 4px 4px 4px rgb(41, 185, 48);
+         }
+    }
